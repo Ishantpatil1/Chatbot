@@ -112,12 +112,12 @@ h1 {
 }
 
 #userInput::placeholder {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255, 255, 255);
 }
 
 #sendBtn {
   padding: 12px 18px;
-  background: linear-gradient(135deg, #4CAF50, #388E3C);
+  background: linear-gradient(135deg, #32d5fe, #77d9ff);
   color: white;
   border: none;
   border-radius: 8px;
@@ -128,7 +128,7 @@ h1 {
 }
 
 #sendBtn:hover {
-  background: linear-gradient(135deg, #45a049, #2e7d32);
+  background: linear-gradient(135deg, #3295ff, #1bacfb);
   transform: scale(1.05);
 }
 
