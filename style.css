@@ -191,3 +191,18 @@ h1 {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+.glow {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #00cbe6, 0 0 30px #00d7e6, 0 0 40px #00bfff, ;
+  }
+  
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 30px #4de4ff, 0 0 40px #4de4ff, 0 0 50px #4de4ff, 0 0 60px #4de1ff;
+  }
+}
